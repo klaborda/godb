@@ -33,7 +33,7 @@ func main() {
 		log.Printf("%s does not exist", dbname)
 
 		setupDb(dbname, db)
-	} 
+	}
 
 	// Initalise Env with a models.BookModel instance (which in turn wraps
 	// the connection pool).
